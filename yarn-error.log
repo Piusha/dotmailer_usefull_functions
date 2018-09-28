@@ -1,0 +1,37 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn add dotmailer
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+
+Yarn version: 
+  1.9.4
+
+Node version: 
+  8.12.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EPROTO: protocol error, symlink '../../../sshpk/bin/sshpk-conv' -> '/StudyPortals/dotmailer/node_modules/http-signature/node_modules/.bin/sshpk-conv'
+
+npm manifest: 
+  {
+    "name": "dotmailertest",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+  	  "start":"node index.js",
+  	  "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "piusha",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

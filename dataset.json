@@ -1,0 +1,37 @@
+{
+	"PostAddressBooks": {
+		"id":1,
+		"Name":"AddressBook_1",
+		"Visibility":"Public",
+		"Contacts":10
+	
+	},
+
+	"PostAddressBookContacts":{ 
+		"email": "john.smith@example.com",
+		"optInType": "Single",
+		"emailType": "Html",
+		"dataFields": [
+		  {
+			"key": "FIRSTNAME",
+			"value": "John"
+		  },
+		  {
+			"key": "FULLNAME",
+			"value": "John Smith"
+		  },
+		  {
+			"key": "GENDER",
+			"value": "Male"
+		  },
+		  {
+			"key": "LASTNAME",
+			"value": "Smith"
+		  },
+		  {
+			"key": "POSTCODE",
+			"value": "N5 1DP"
+		  }
+		]
+	  } 
+}
